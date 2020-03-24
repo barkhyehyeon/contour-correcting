@@ -1,4 +1,4 @@
-# contour-smoothing
+# contour-correcting
 
 This is an algorithm to correct the contour of a circular object in an image.
 <br>
