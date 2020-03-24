@@ -5,7 +5,6 @@ This is an algorithm to correct the contour of a circular object in an image.
 1. Small blobs are cleaned except the one biggest object in the image, then the object is converted to its convex hull
 2. The longest axis of the object(with center of the mass as a center point) is obtained.
 3. The axis is rotated by 45 degrees to find an intersecting point on the edge of the object.
-<br>
 By repeating this process, eight representative dots are fitted on the edge.
 4. Then, the dots are interpolated to create a connected circular object with a smooth contour.
 
